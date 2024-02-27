@@ -1,0 +1,5 @@
+properties:
+  template:field1:
+    type: uint8
+  template:field2:
+    type: string
