@@ -1,4 +1,4 @@
-# Management Practices Extension Specification
+# Tillage Extension Specification
 
 - **Title:** Tillage
 - **Identifier:** https://fiboa.github.io/tillage-extension/v0.1.0/schema.yaml
@@ -35,7 +35,7 @@ The fields in the table below can be used in these parts of fiboa documents:
 **tillage:type** allowed values:
 
  * `conventional`
- * `stripped till`
+ * `conservation`
  * `unknown` 
 
 
