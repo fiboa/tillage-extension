@@ -1,14 +1,15 @@
 # Tillage Extension Specification
 
 - **Title:** Tillage
-- **Identifier:** https://fiboa.github.io/tillage-extension/v0.1.0/schema.yaml
+- **Identifier:** <https://fiboa.github.io/tillage-extension/v0.1.0/schema.yaml>
 - **Property Name Prefix:** tillage
 - **Extension Maturity Classification:** Proposal
 - **Owner**: TBD
 
 This extension describes management practices for tillage and cover crop. 
 
-This could eventually expand to include other management practices like fertility, crop protection, manure, irrigation, residue management, etc.
+This could eventually expand to include other management practices like fertility, crop
+protection, manure, irrigation, residue management, etc.
 
 - Examples:
   - [GeoJSON](examples/geojson/)
@@ -23,9 +24,9 @@ The fields in the table below can be used in these parts of fiboa documents:
 - [ ] Collection
 - [x] Feature Properties
 
-| Property Name      | Type   | Description |
-| ------------------ | ---------- | ----------- |
-| tillage:occurred   | boolean    | **Required** Whether or not this field has had a tillage event in a calendar year. |
+| Property Name | Type | Description |
+| ------------- | ---- | ----------- |
+| tillage:occurred | boolean | **Required** Whether or not this field has had a tillage event in a calendar year. |
 | tillage:type | enum  | The type of tillage that occurred |
 | tillage:events | int32 | Number of tillage passes in a calendar year. |
 | tillage:depth | double | Depth of soil disturbance in centimeters. |
@@ -34,9 +35,9 @@ The fields in the table below can be used in these parts of fiboa documents:
 
 **tillage:type** allowed values:
 
- * `conventional`
- * `conservation`
- * `unknown` 
+* `conventional`
+* `conservation`
+* `unknown` 
 
 ## Contributing
 
