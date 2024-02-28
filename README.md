@@ -27,17 +27,16 @@ The fields in the table below can be used in these parts of fiboa documents:
 | ------------------ | ---------- | ----------- |
 | tillage:occurred   | boolean    | **Required** Whether or not this field has had a tillage event in a calendar year. |
 | tillage:type | enum  | The type of tillage that occurred |
-| tillage:events | int8 | Number of tillage passes in a calendar year. |
-| tillage:depth | float | Depth of soil disturbance in centimeters. |
-| tillage:spacing | float | Space in centimeters between disks. |
-| tillage:angle | int8 | Degrees of the disk of the tillage equipment. |
+| tillage:events | int32 | Number of tillage passes in a calendar year. |
+| tillage:depth | double | Depth of soil disturbance in centimeters. |
+| tillage:spacing | double | Space in centimeters between disks. |
+| tillage:angle | int32 | Degrees of the disk of the tillage equipment. (0 - 90) |
 
 **tillage:type** allowed values:
 
  * `conventional`
  * `conservation`
  * `unknown` 
-
 
 ## Contributing
 
