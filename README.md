@@ -6,10 +6,8 @@
 - **Extension Maturity Classification:** Proposal
 - **Owner**: TBD
 
-This extension describes management practices for tillage and cover crop. 
-
-This could eventually expand to include other management practices like fertility, crop
-protection, manure, irrigation, residue management, etc.
+This extension describes whether tillage has been performed on a field, along with various attributes
+to describe the tillage.
 
 - Examples:
   - [GeoJSON](examples/geojson/)
