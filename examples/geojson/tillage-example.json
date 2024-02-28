@@ -12,7 +12,7 @@
                 "tillage:depth": 15,
                 "tillage:spacing": 30.5,
                 "tillage:angle": 10,
-                "determination_method": "'manual'",
+                "determination_method": "manual",
                 "determination_datetime": "2020-12-11T22:38:32.327Z"
             },
             "geometry":
@@ -95,7 +95,7 @@
             "properties":
             {
                 "tillage:occurred": false,
-                "determination_method": "'manual'",
+                "determination_method": "manual",
                 "determination_datetime": "2022-10-10T21:38:32.327Z"
             },
             "geometry":
