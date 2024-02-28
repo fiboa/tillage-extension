@@ -8,16 +8,16 @@ properties:
      - conventional
      - conservation
      - unknown
-   tillage:events:
-     type: int32
-     minimum: 0
-   tillage:depth:
-     type: double
-     minimum: 0
-   tillage:spacing:
-     type: double
-     minimumExclusive: 0
-   tillage:angle
-     type: int32
-     minimum: 0
-     maximum: 90
+  tillage:events:
+    type: int32
+    minimum: 0
+  tillage:depth:
+    type: double
+    minimum: 0
+  tillage:spacing:
+    type: double
+    exclusiveMinimum: 0
+  tillage:angle:
+    type: int32
+    minimum: 0
+    maximum: 90
