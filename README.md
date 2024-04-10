@@ -1,7 +1,7 @@
 # Tillage Extension Specification
 
 - **Title:** Tillage
-- **Identifier:** <https://fiboa.github.io/tillage-extension/v0.1.0/schema.yaml>
+- **Identifier:** <https://fiboa.github.io/tillage-extension/v0.2.0/schema.yaml>
 - **Property Name Prefix:** tillage
 - **Extension Maturity Classification:** Proposal
 - **Owner**: TBD
