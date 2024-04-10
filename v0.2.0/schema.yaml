@@ -1,0 +1,25 @@
+$schema: https://fiboa.github.io/schema/v0.1.0/schema.json
+required:
+  - tillage:occurred
+properties:
+  tillage:occurred:
+    type: boolean
+  tillage:type:
+    type: string
+    enum:
+     - conventional
+     - conservation
+     - unknown
+  tillage:events:
+    type: int32
+    minimum: 0
+  tillage:depth:
+    type: double
+    minimum: 0
+  tillage:spacing:
+    type: double
+    exclusiveMinimum: 0
+  tillage:angle:
+    type: float
+    minimum: 0
+    maximum: 90
