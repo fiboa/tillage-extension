@@ -13,7 +13,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- ...
+- `tillage:angle` is a float instead of int64
+- Updated to fiboa 0.2.0 and latest extension template
 
 ### Deprecated
 
