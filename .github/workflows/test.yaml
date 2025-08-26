@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/setup-python@v5
         with:
-          python-version: '>=3.9'
+          python-version: '>=3.10'
       - uses: actions/checkout@v4
       - name: Install pipenv
         run: |
@@ -16,5 +16,4 @@ jobs:
           pipenv install
       - run: pipenv run test-docs
       - run: pipenv run test-schema
-      - run: pipenv run test-geojson
-      - run: pipenv run test-geoparquet
+      - run: pipenv run test-examples

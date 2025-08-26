@@ -1,13 +1,14 @@
 # Tillage Extension Specification
 
 - **Title:** Tillage
-- **Identifier:** <https://fiboa.github.io/tillage-extension/v0.2.0/schema.yaml>
+- **Identifier:** <https://fiboa.org/tillage-extension/v0.3.0/schema.yaml>
 - **Property Name Prefix:** tillage
 - **Extension Maturity Classification:** Proposal
-- **Owner**: TBD
+- **Owner**: @cholmes
 
 This document explains the Tillage Extension to the
-[Field Boundaries for Agriculture (fiboa) Specification](https://github.com/fiboa/specification).
+[Field Boundaries for Agriculture (fiboa)](https://fiboa.org) and
+[Vecorel](https://vecorel.org) specifications.
 
 This extension describes whether tillage has been performed on a field, along with various attributes
 to describe the tillage.
@@ -19,11 +20,6 @@ to describe the tillage.
 - [Changelog](./CHANGELOG.md)
 
 ## Properties
-
-The fields in the table below can be used in these parts of fiboa documents:
-
-- [ ] Collection
-- [x] Feature Properties
 
 | Property Name    | Type    | Description |
 | ---------------- | ------- | ----------- |
